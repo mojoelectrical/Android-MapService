@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UIActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="222dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:text="Job Information"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/dataBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick = "INSERTJOBS"
+            android:text="GET DATA (HARDCORE)" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Select an open position:"
+            android:textSize="24sp" />
+
+        <CheckBox
+            android:id="@+id/developerCB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developer" />
+
+        <CheckBox
+            android:id="@+id/bAnalystCB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Business Analyst" />
+
+        <CheckBox
+            android:id="@+id/sDesignerCB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solution Designer" />
+
+        <Button
+            android:id="@+id/displayBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DISPLAY INFORMATION" />
+
+        <TextView
+            android:id="@+id/displaytView"
+            android:layout_width="match_parent"
+            android:layout_height="132dp" />
+
+        <Button
+            android:id="@+id/showMapBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHOW ON THE MAP" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
